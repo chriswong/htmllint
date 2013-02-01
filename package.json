@@ -1,0 +1,19 @@
+{
+    "name": "htmllint",
+    "description": "A hobby tool to assist in the development of quality controlled HTML documents",
+    "version": "0.1.0",
+    "engines": {"node": ">= 0.4.0"},
+    "author": "Roarke Lynch <roarkely@gmail.com>",
+    "main": "./lib/main",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/roarkely/htmllint.git"
+    },
+    "dependencies": {
+        "underscore" : "1.4.3",
+    },
+    "licenses": [{
+        "type": "The MIT License",
+        "url": "http://www.opensource.org/licenses/mit-license.php"}
+    ]
+}
