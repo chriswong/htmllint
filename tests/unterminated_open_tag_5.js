@@ -1,6 +1,6 @@
 module.exports = {
-	flags : {},
-	results : [
+	flags: {},
+	results: [
 		{ line: 2,
 		character: 13,
 		column: 13,
@@ -10,6 +10,11 @@ module.exports = {
 		character: 13,
 		column: 13,
 		source: 'unquoted_value',
-		message: 'Add end to tag' }
-	]
-};
+		message: 'Add end to tag' },
+		{ line: 2,
+		character: 15,
+		column: 15,
+		source: 'chars',
+		message: 'Encode < as &lt;' }
+    ]
+}

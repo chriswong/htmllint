@@ -2,9 +2,9 @@ module.exports = {
 	flags : { },
 	results: [ 
 		{ line: 2,
-		character: 7,
-		column: 7,
-		source: 'tag_end',
+		character: 1,
+		column: 1,
+		source: 'tag',
 		message: 'Add end to tag' }
 	]
 }

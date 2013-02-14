@@ -1,0 +1,9 @@
+INITAL
+	"<!DOCTYPE" :: READ_DOCTYPE
+
+READ_DOCTYPE
+	space, !">", ">" :: NORMAL
+
+NORMAL
+	"<!--" :: COMMENT
+	"</" :: CLOSETAG

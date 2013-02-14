@@ -1,4 +1,10 @@
 module.exports = {
 	flags: {},
-	results : [ "fail" ]
+	results : [
+		{ line: 2,
+		character: 1,
+		column: 1,
+		source: 'tag',
+		message: 'Add end to tag' }
+	]
 };
