@@ -1,0 +1,29 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	color:#666;
+}
+
+a { 
+	text-decoration:none;
+}
+a:hover { 
+	text-decoration:underline;
+}
+a:link, a:visited, a:active, a:hover {
+	color:blue;
+}
+
+h1 {
+	font-family: 'Syncopate', sans-serif;
+	font-size:32pt;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+	font-size:24pt;
+}
+
+button.download {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size:18pt;
+}

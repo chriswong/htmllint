@@ -10,9 +10,15 @@
         "url": "https://github.com/roarkely/htmllint.git"
     },
     "dependencies": {
-        "underscore" : "1.4.3",
+        "underscore" : "1.4.4",
         "jquery" : "1.8.3",
-        "jsdom" : "0.5.0"
+        "jsdom" : "0.5.0",
+        "nodeunit" : "0.7.4",
+        "pegjs" : "0.7.0",
+        "express" : "3.1.0",
+        "consolidate" : "0.8.0",
+        "hogan.js" : "2.0.0"
+
     },
     "licenses": [{
         "type": "The MIT License",
